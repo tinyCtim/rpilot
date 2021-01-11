@@ -9,6 +9,17 @@
 #include <stdlib.h>
 #include <time.h>
 
+/* Part of this code build the output string by building it with something
+ * along the lines of 'string=string+new_stuff'. This caused warnings in
+ * GCC because 'string' could be up to a max size and 'string+new_stuff'
+ * could be larger than the max size if string had already hit the limit.
+ *
+ * This really isn't unexpected and the following line will cause GCC
+ * to ignore these diagnostics. (W4JBM, Jan 2021)
+ */
+ 
+#pragma GCC diagnostic ignored "-Wformat-overflow="
+
 #ifndef isblank
 #define isblank(ch) (ch==' ' || ch == '\t')
 #endif
