@@ -381,7 +381,7 @@ Where to get RPilot::
         sunsite.unc.edu/pub/Linux/devel/lang/misc/rpilot-XX.tar.gz
         and its many mirrors
 
-    RPilot for OS/2 2.0 and above wil l be at
+    RPilot for OS/2 2.0 and above will be at
 
         hobbes.nmsu.edu/pub/os2/dev/misc/rpos2xx.zip
         and its many mirrors
