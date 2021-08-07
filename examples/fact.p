@@ -1,7 +1,10 @@
+
+R: lrb - 8/7/21 - minor changes
+
 R: fact.p - A recursive PILOT program for solving factorials
  : Written by Rob Linwood (auntfloyd@biosys.net)
 
-R: A factorial of number n is written as n!  It is the equal to the expression
+R: A factorial of number n is written as n!  It is equal to the expression
  : n! = n * (n-1) * (n-2) * (n - 3) * ... * (n - (n-1))
  : For example, 4! = 4 * 3 * 2 * 1 = 24.  The way we solve this in PILOT is to
  : use a programming technique called "recursion".  In a recursive program,
@@ -20,18 +23,18 @@ A: #num
 R: If #num is 0, 1, or 2, we don't need to solve.  Instead, we go straight to
  : the end.
  : These are "special cases" which can be handled more quickly than others
-J( #num = 0 ): zero
+J( #num = 0 ): one
 J( #num = 1): one
 J( #num = 2): two
 
-R: Initialize the result (#res) to 0
+R: Initialize the result (#res) to #num
 C: #res = #num
 
 *bang
 J( #num = 1 ): done
 C: #tmp = #num - 1
 C: #res = #tmp * #res
-C: #num = #num -1
+C: #num = #num - 1
 J: bang
 
 *zero
@@ -48,5 +51,3 @@ E:
 
 *done
 T: The answer is #res
-
-
