@@ -1,4 +1,3 @@
-
                      -- RPilot: Rob's PILOT Version 1.4.2 --
             -- Copyright 1998,2002 Rob Linwood (rcl211@nyu.edu) --
                   -- WWW: http://rpilot.sourceforge.net/ --
@@ -11,7 +10,7 @@ Intro::
     of time.  PILOT was first developed in 1962, and was standardized by
     the IEEE in 1991.  RPilot probably isn't completely standard, but it
     is very close.  It also adds a few extensions not found in standard
-    PILOT interpretors, such as rudimentry debugging and the ability to
+    PILOT interpretors, such as rudimentary debugging and the ability to
     call other programs.  RPilot was written in 100% ANSI standard C, and
     should be easily portable to any platform with a standard C compiler.
 
@@ -26,7 +25,7 @@ Programming::
 
     Variables::
         String variables consist of a list of characters which can be up to
-        127 bytes long.  Numeric variables are equivilent to C's int.  They
+        127 bytes long.  Numeric variables are equivalent to C's int.  They
         can be any number in the range of -2,147,483,648 to 2,147,483,648
         (with 32 bit rpilot) or -32,768 to 32,768 (with 16 bit DOS rpilot).
         Variables are referenced by their names, which can be up to 10
@@ -200,7 +199,7 @@ Programming::
         X ::
             The "X" (eXecute) command runs a line of PILOT code which you
             pass to it.  The argument(s) are either a constant string,
-            (i.e., "T: Hello!"), or a string variable.  Try the following:
+            (ie, "T: Hello!"), or a string variable.  Try the following:
 
             A:
             X: $answer
@@ -222,7 +221,7 @@ Programming::
             you are running.
 
 	    The return code of the program which you ran is stored in the
-	    variable `#retcode'.  If a program runs succesfully, this should
+	    variable `#retcode'.  If a program runs successfully, this should
 	    be zero.  If not, it usually means that something went wrong.
 
         D ::
@@ -307,7 +306,7 @@ Programming::
         a captial "Y", then RPilot checks to see if "#matched" is equal to
         1.  If so, the condition is true, and is then executed.  "N" is the
         opposite, and checks whether "#matched" equals 0.  If so, the
-        statement is executed.  These are ususally used after an "M" command,
+        statement is executed.  These are usually used after an "M" command,
         for example:
 
         A: $answer
@@ -436,3 +435,4 @@ License::
 Rob Linwood (rcl211@nyu.edu)
 http://homepages.nyu.edu/~rcl211/
 
+© 2021 GitHub, Inc.
