@@ -200,7 +200,7 @@ Programming::
         X ::
             The "X" (eXecute) command runs a line of PILOT code which you
             pass to it.  The argument(s) are either a constant string,
-            (ie, "T: Hello!"), or a string variable.  Try the following:
+            (i.e., "T: Hello!"), or a string variable.  Try the following:
 
             A:
             X: $answer
@@ -337,7 +337,7 @@ Programming::
 		  prompt is "rpilot>" rather than ">".
 
 	#rpilot - This is the version number of RPilot.  For version 1.4,
-	          it's value is 14.  RPilot 1.5 would be 15, and 2.0 would
+	          its value is 14.  RPilot 1.5 would be 15, and 2.0 would
 		  be 20.
 
 
@@ -375,17 +375,17 @@ Where to get RPilot::
     version 1.0.
 
         ftp.simtel.net/pub/simtelnet/msdos/misclang/rpilotXX.zip
-        and it's many mirrors
+        and its many mirrors
         
     RPilot for Linux will be found at
 
         sunsite.unc.edu/pub/Linux/devel/lang/misc/rpilot-XX.tar.gz
-        and it's many mirrors
+        and its many mirrors
 
     RPilot for OS/2 2.0 and above wil l be at
 
         hobbes.nmsu.edu/pub/os2/dev/misc/rpos2xx.zip
-        and it's many mirrors
+        and its many mirrors
 
     The source code will in be all of the packages, along with makefiles and
     tips relevant to the particular platform.  Since RPilot is portable, all
