@@ -61,7 +61,7 @@ Programming::
 
     Commands::
         Commands in RPilot are exactly one character long.  This may seem
-        a little wierd, but that's the way things are.  Even if you are a
+        a little weird, but that's the way things are.  Even if you are a
         PILOT expert, you will find it beneficial to read ALL of the command
         descriptions, to learn the nuances of RPilot.  On to the commands:
 
@@ -145,7 +145,7 @@ Programming::
         M ::
             The "M" (Match) command is used to handle user input.  It
             compares a given list of strings to the last string which was
-            used to hold input from the A command.  This also is very wierd,
+            used to hold input from the A command.  This also is very weird,
             and it would probably help to check some of the example programs.
             If RPilot finds a match, it sets the variable "#matched" to 1,
             and the variable "#which" to the position of the matched string
@@ -166,7 +166,7 @@ Programming::
         C ::
             The "C" (Compute) command sets variables.  The argument string
             contains a variable name followed by an equal sign ("="),
-            followed by a value to assign tot he variable.  For numerics,
+            followed by a value to assign to the variable.  For numerics,
             this is a mathematical expression which can contain one or more
             terms, and variables as well as constants.  See the section on
             math for more info on expressions.  For strings, it is a list
